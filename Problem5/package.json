@@ -1,0 +1,25 @@
+{
+  "name": "problem5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "seed": "ts-node src/db/seed.ts",
+    "dev": "ts-node src/index.ts --watch",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
